@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Droid/tabbar.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AndroidWearSquare" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/CustomViews/TabPage.cs">
+    <Files>
+      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="tabbar/CustomViews/TopTabPage.cs" Line="1" Column="1" />
+      <File FileName="tabbar/tabbar.cs" Line="1" Column="1" />
+      <File FileName="tabbar/MyPage.cs" Line="1" Column="1" />
+      <File FileName="tabbar/Page1.cs" Line="1" Column="1" />
+      <File FileName="tabbar/Page2.cs" Line="1" Column="1" />
+      <File FileName="Droid/CustomViews/TabPage.cs" Line="18" Column="1" />
+      <File FileName="iOS/CustomViews/TabPage.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/PFJ/Developer/tabbar/Droid/CustomViews/TabPage.cs" line="13" column="38" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
