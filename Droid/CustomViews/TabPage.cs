@@ -1,13 +1,13 @@
-﻿using tabbar;
-using Xamarin.Forms;
-using tabbar.Droid;
-using Xamarin.Forms.Platform.Android;
-using Android.App;
-using Android.Graphics.Drawables;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Android.App;
+using Android.Graphics.Drawables;
 using Android.Widget;
+using tabbar;
+using tabbar.Droid;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.Android;
 
 [assembly: ExportRenderer(typeof(TopTabPage), typeof(TabPage))]
 namespace tabbar.Droid
@@ -35,7 +35,6 @@ namespace tabbar.Droid
             var actionBar = activity.ActionBar;
             var colorDrawable = new ColorDrawable(Android.Graphics.Color.Red);
             actionBar.SetStackedBackgroundDrawable(colorDrawable);
-            actionBar.SetCustomView(new Android.Views.View(activity), new ActionBar.LayoutParams(LayoutParams.MatchParent, LayoutParams.WrapContent));
             ActionBarTabsSetup(actionBar);
         }
 
@@ -54,13 +53,13 @@ namespace tabbar.Droid
         {
             var linLay = new LinearLayout(activity)
             {
-                LayoutParameters = new LayoutParams(LayoutParams.WrapContent, LayoutParams.WrapContent),
+                LayoutParameters = new LayoutParams(LayoutParams.WrapContent, 180),
                 Orientation = Orientation.Vertical,
             };
             linLay.SetHorizontalGravity(Android.Views.GravityFlags.Center);
             var imageView = new ImageView(activity);
             imageView.SetImageResource(resID);
-            imageView.SetPadding(-35, 4, -35, 4);
+            imageView.SetPadding(-35, 4, -35, 0);
             imageView.SetMinimumWidth(60);
 
             var textView = new TextView(activity)
